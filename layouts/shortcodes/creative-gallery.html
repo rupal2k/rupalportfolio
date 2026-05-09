@@ -1,0 +1,21 @@
+{{ $gallery := index $.Site.Data.gallery "photos" }}
+{{ if $gallery }}
+<div class="creative-gallery">
+  {{ range $gallery }}
+  <figure>
+    <a href="/media/gallery/{{ .file }}" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/media/gallery/{{ .file }}"
+        alt="{{ .caption }}"
+        loading="lazy"
+      >
+    </a>
+    {{ if .caption }}
+    <figcaption>{{ .caption }}</figcaption>
+    {{ end }}
+  </figure>
+  {{ end }}
+</div>
+{{ else }}
+<p style="color:#8b949e;font-style:italic;">Gallery coming soon — photos from the road.</p>
+{{ end }}

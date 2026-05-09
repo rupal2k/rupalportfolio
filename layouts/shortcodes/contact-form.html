@@ -1,0 +1,21 @@
+<form
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  class="contact-form"
+>
+  <input type="hidden" name="access_key" value="{{ getenv "WEB3FORMS_KEY" }}">
+  <input type="hidden" name="subject" value="Portfolio Contact — Rupal Das">
+  <input type="hidden" name="redirect" value="false">
+  <input type="checkbox" name="botcheck" style="display:none">
+
+  <div class="cf-field">
+    <input type="text" name="name" placeholder="Your Name" required autocomplete="name">
+  </div>
+  <div class="cf-field">
+    <input type="email" name="email" placeholder="Your Email" required autocomplete="email">
+  </div>
+  <div class="cf-field">
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
