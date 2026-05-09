@@ -79,19 +79,14 @@ hugoblox:
   # Site header and navigation bar
   # ────────────────────────────────────────────────────────────────────────────
   header:
-    enable: true
-    # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
-    # Stick to top on scroll
-    sticky: true
-    # Menu alignment
-    align: center # left | center | right
-    # Feature toggles
-    search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
-    # Call-to-action button
+    enable: false
+    style: minimal
+    sticky: false
+    align: center
+    search: false
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
     cta:
       enable: false
       text: ""
