@@ -1,11 +1,12 @@
 {
   "framework": "hugo",
-  "buildCommand": "pnpm install --no-frozen-lockfile && hugo --gc --minify",
+  "buildCommand": "npm install && hugo --gc --minify",
   "outputDirectory": "public",
   "build": {
     "env": {
       "HUGO_VERSION": "0.161.1",
-      "HUGO_ENVIRONMENT": "production"
+      "HUGO_ENVIRONMENT": "production",
+      "NODE_VERSION": "22"
     }
   }
 }
