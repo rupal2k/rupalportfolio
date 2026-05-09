@@ -52,15 +52,6 @@ sections:
     design:
       view: card
 
-  - block: markdown
-    id: creative
-    content:
-      title: Creative Lens
-      subtitle: 'Between client calls and commits, I ride. Motorcycle touring across India has given me a lens — literal and figurative — on landscapes, people, and quiet moments in between.'
-      text: '{{< creative-gallery >}}'
-    design:
-      columns: '1'
-
   - block: resume-awards
     id: certifications
     content:
