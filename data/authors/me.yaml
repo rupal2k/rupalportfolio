@@ -2,115 +2,135 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  display: Rupal Das
+  given: Rupal
+  family: Das
+  pronouns: ''
+
+role: Client Success & Technical Operations | SaaS | AI & Automation
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Results-driven Client Success & Technical Operations professional with 9+ years of experience managing enterprise SaaS clients across Americas and EU markets. Proven expertise in end-to-end client onboarding, incident resolution, API integrations, and platform configuration using CI/CD pipelines. Skilled at translating complex technical requirements into measurable business outcomes through SQL-driven reporting and cross-functional collaboration. Currently advancing expertise in Generative AI for Business at IIM Lucknow, with applied focus on leveraging AI for Learning & Development and client enablement. Certified Scrum Master with a track record of improving SLA compliance, driving product adoption, and reducing churn.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Vantage Circle
+    url: https://www.vantagecircle.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+    url: mailto:rupal2k@gmail.com
+    label: Email Me
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/rupal-das-03ba082a
+    label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/rupal2k
+    label: GitHub
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - AI & Generative AI for Business
+  - SaaS Client Success & Onboarding
+  - Workflow Automation (n8n, APIs)
+  - Motorcycle Touring & Photography
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: Executive Program in AI for Business
+    institution: Indian Institute of Management (IIM) Lucknow
+    start: '2024-01-01'
+  - degree: Bachelor of Computer Applications (BCA)
+    institution: West Bengal University of Technology
+    start: '2010-09-01'
+    end: '2013-06-30'
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Client Success Specialist
+    org: Vantage Circle
+    start: '2023-12-01'
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Led end-to-end onboarding for enterprise clients across North America and Europe. Served as primary escalation point for P1/P2 incidents, improving SLA compliance by 20%. Configured platform customizations via CI/CD pipelines (Jenkins) and delivered REST API integrations via Postman. Created L&D content using Generative AI tools, increasing product adoption rates. Authored SQL-driven QBR presentations influencing key account renewal decisions.
+  - role: Support Specialist
+    org: Vimeo
+    start: '2022-09-01'
+    end: '2023-12-01'
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Resolved 200+ client issues weekly with consistent 95%+ CSAT score. Created self-service knowledge base articles, deflecting 15% of inbound support volume. Specialized in live video streaming troubleshooting, CDN performance, and API-based embed configurations.
+  - role: Client Success Specialist
+    org: Vantage Circle
+    start: '2021-09-01'
+    end: '2022-09-01'
+    summary: |
+      Onboarded 15+ mid-market and enterprise SaaS clients within committed go-live timelines. Designed client engagement plans reducing early churn risk by 30%. Generated SQL and API-based reports for client rewards and wellness program insights.
+  - role: Sr. Executive — Operations & Support
+    org: Vantage Circle
+    start: '2019-07-01'
+    end: '2021-10-01'
+    summary: |
+      Owned escalation management for enterprise and SMB clients across multiple SaaS modules. Developed internal SOPs and client communication templates adopted across the operations team.
+  - role: Customer Service Representative
+    org: Groupon
+    start: '2017-10-01'
+    end: '2018-10-01'
+    summary: |
+      Managed customer escalations, app troubleshooting, and merchant dispute resolution via Zendesk. Maintained top-quartile CSAT scores across high-volume chat and email channels.
+  - role: Technical Support & Project Associate
+    org: Xtreme Webs Pvt. Ltd.
+    start: '2016-03-01'
+    end: '2017-05-01'
+    summary: |
+      Provided technical support for newly launched websites. Managed client communication end-to-end, translating requirements into actionable tasks.
 
 skills:
-  - name: Technical Skills
+  - name: Client Success
     items:
-      - label: Python
+      - label: Onboarding & Implementation
         level: 5
-      - label: Machine Learning
+      - label: Retention & Churn Reduction
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: SLA Governance & Escalation
+        level: 5
+      - label: QBRs & Executive Stakeholder Mgmt
+        level: 5
+  - name: Technical
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: SQL Reporting
         level: 4
-      - label: Grant Proposals
+      - label: REST APIs & Postman
+        level: 4
+      - label: Docker & CI/CD (Jenkins)
+        level: 4
+      - label: Incident Management
+        level: 5
+  - name: AI & Automation
+    items:
+      - label: Generative AI for Business
+        level: 4
+      - label: n8n Workflow Automation
+        level: 4
+      - label: Streamlit & Python
         level: 4
 
 languages:
   - name: English
     level: 5
+    label: Native/Bilingual
+  - name: Bengali
+    level: 5
     label: Native
-  - name: Spanish
+  - name: Hindi
     level: 4
-    label: Fluent
+    label: Professional
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Certified Scrum Master (CSM)
+    awarder: Scrum Alliance
+    date: '2023-01-01'
+    icon: hero/check-badge
+  - title: Google IT Support Specialization
+    awarder: Google / Coursera
+    date: '2022-01-01'
+    icon: hero/academic-cap
+  - title: Executive Program in AI for Business
+    awarder: IIM Lucknow
+    date: '2024-01-01'
+    summary: Currently enrolled — advancing expertise in Generative AI for business applications.
+    icon: hero/sparkles
